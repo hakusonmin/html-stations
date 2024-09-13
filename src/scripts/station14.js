@@ -17,7 +17,7 @@ function buildFullName(user) {
     // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装するこ
     return {
       ...user,
-      //　``だからね ''じゃ無いよ バッククオート使え
+      //　``だからね ''じゃ無いよ バッククオート
       full_name: `${user.family_name} ${user.first_name}`
     };
 };
